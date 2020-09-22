@@ -45,7 +45,7 @@ st.subheader("Geo data START between %i:00 and %i:00" % (hour, (hour + 3) % 24))
 midpoint = (13.786331, 100.551762)
 
 st.write(pdk.Deck(
-    map_style="mapbox://styles/mapbox/dark",
+    map_style="mapbox://styles/mapbox/dark-v9",
     initial_view_state={
         "latitude": midpoint[0],
         "longitude": midpoint[1],
